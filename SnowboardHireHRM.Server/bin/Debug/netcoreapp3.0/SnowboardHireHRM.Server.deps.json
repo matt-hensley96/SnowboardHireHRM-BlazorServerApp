@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.0": {
       "SnowboardHireHRM.Server/1.0.0": {
         "dependencies": {
+          "SnowboardHireHRM.Shared": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.0.0.0",
@@ -312,6 +313,14 @@
         },
         "compile": {
           "SnowboardHireHRM.Server.dll": {}
+        }
+      },
+      "SnowboardHireHRM.Shared/1.0.0": {
+        "runtime": {
+          "SnowboardHireHRM.Shared.dll": {}
+        },
+        "compile": {
+          "SnowboardHireHRM.Shared.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.0.0.0": {
@@ -2010,6 +2019,11 @@
   },
   "libraries": {
     "SnowboardHireHRM.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SnowboardHireHRM.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

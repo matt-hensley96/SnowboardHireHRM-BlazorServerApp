@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BethanysPieShopHRM.Shared
+namespace SnowboardHireHRM.Shared
 {
     public class Employee
     {

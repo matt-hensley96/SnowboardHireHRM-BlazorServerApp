@@ -1,4 +1,4 @@
-﻿namespace BethanysPieShopHRM.Shared
+﻿namespace SnowboardHireHRM.Shared
 {
     public class Country
     {

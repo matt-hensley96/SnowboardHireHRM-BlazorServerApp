@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Fd4lJrGgNdIQGfQt5bR/V2kFjqlIxliZ8ck1hbl090ZxRn3/IeNyU++ZhCZ73YEzTiDP9suJKSHIhTzHkrCUaQ==",
+  "dgSpecHash": "BZNfLn7P1gLeuykkHhBchjEfs9337Zgz8Ecz8X0oKhOo3kf4wjT6RRhZ9sXpWJVfO1Qsa81ANg6gSzcp44JXpA==",
   "success": true,
   "projectFilePath": "C:\\Code\\SnowboardHireHRM.Server\\SnowboardHireHRM.Server\\SnowboardHireHRM.Server.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\matth\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

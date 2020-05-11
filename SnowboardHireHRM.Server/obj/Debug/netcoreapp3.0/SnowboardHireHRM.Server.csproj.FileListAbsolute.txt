@@ -47,3 +47,7 @@ C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\Razor\Pages\EmployeeOverview.razor.g.cs
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\EmployeeDetail.razor.g.cs
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\Razor\Pages\EmployeeDetail.razor.g.cs
+C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\EmployeeEdit.razor.g.cs
+C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\Razor\Pages\EmployeeEdit.razor.g.cs
+C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Server\obj\Debug\netcoreapp3.0\Razor\Pages\Error.razor.g.cs

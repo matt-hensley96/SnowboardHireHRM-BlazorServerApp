@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "C+8cDvF07Q/a2bMijxkX7aQ3BPrEkXsY3qhfsGuOivZ3prNl4/PU83KJhVFbxdMpLed2v0KuEscb6mTrWCgqHg==",
+  "dgSpecHash": "FQuniWM1S75SBWqE0oAJ8uYKiIhPSquQLwOk0YC7ZiVybxg6M6a+KTMh2Ldx+e3DccZ6YLva3pP+ZgWxHEWeLg==",
   "success": true,
   "projectFilePath": "C:\\Code\\SnowboardHireHRM.Server\\SnowboardHireHRM.Shared\\SnowboardHireHRM.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\matth\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\matth\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\matth\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512"
   ],
   "logs": []
 }

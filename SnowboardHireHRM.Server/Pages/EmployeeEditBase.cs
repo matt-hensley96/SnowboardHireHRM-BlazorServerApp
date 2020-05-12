@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SnowboardHireHRM.Server.Pages
 {
-    public class EmployeeEditBase : ComponentBase
+    public class EmployeeEditBase: ComponentBase
     {
         [Inject]
         public IEmployeeDataService EmployeeDataService { get; set; }

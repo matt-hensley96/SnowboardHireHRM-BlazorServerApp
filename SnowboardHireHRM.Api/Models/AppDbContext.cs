@@ -30,12 +30,15 @@ namespace SnowboardHireHRM.Api.Models
             modelBuilder.Entity<Country>().HasData(new Country { CountryId = 8, Name = "France" });
             modelBuilder.Entity<Country>().HasData(new Country { CountryId = 9, Name = "Brazil" });
 
-            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 1, JobCategoryName = "Marketing" });
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 1, JobCategoryName = "Pie research" });
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 2, JobCategoryName = "Sales" });
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 3, JobCategoryName = "Management" });
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 4, JobCategoryName = "Store staff" });
             modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 5, JobCategoryName = "Finance" });
-            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 6, JobCategoryName = "Cleaning" });
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 6, JobCategoryName = "QA" });
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 7, JobCategoryName = "IT" });
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 8, JobCategoryName = "Cleaning" });
+            modelBuilder.Entity<JobCategory>().HasData(new JobCategory() { JobCategoryId = 9, JobCategoryName = "Bakery" });
 
             modelBuilder.Entity<Employee>().HasData(new Employee
             {
@@ -43,15 +46,15 @@ namespace SnowboardHireHRM.Api.Models
                 CountryId = 1,
                 MaritalStatus = MaritalStatus.Single,
                 BirthDate = new DateTime(1979, 1, 16),
-                City = "Keystone",
-                Email = "alana@keystoneboardhire.com",
-                FirstName = "Alana",
+                City = "Brussels",
+                Email = "bethany@SnowboardHire.com",
+                FirstName = "Bethany",
                 LastName = "Smith",
                 Gender = Gender.Female,
-                PhoneNumber = "+324777888773",
-                Smoker = true,
-                Street = "Trailhead Drive",
-                Zip = "CO 80435",
+                PhoneNumber = "324777888773",
+                Smoker = false,
+                Street = "Grote Markt 1",
+                Zip = "1000",
                 JobCategoryId = 1,
                 Comment = "Lorem Ipsum",
                 ExitDate = null,
@@ -65,16 +68,16 @@ namespace SnowboardHireHRM.Api.Models
                 CountryId = 2,
                 MaritalStatus = MaritalStatus.Married,
                 BirthDate = new DateTime(1979, 1, 16),
-                City = "Breckenridge",
-                Email = "eric@keystoneboardhire.com",
+                City = "Antwerp",
+                Email = "gill@SnowboardHire.com",
                 EmployeeId = 2,
-                FirstName = "Eric",
-                LastName = "Koston",
+                FirstName = "Gill",
+                LastName = "Cleeren",
                 Gender = Gender.Male,
-                PhoneNumber = "+33999909923",
+                PhoneNumber = "33999909923",
                 Smoker = false,
-                Street = "Gold Flake Terrace",
-                Zip = "CO 80220",
+                Street = "New Street",
+                Zip = "2000",
                 JobCategoryId = 1,
                 Comment = "Lorem Ipsum",
                 ExitDate = null,

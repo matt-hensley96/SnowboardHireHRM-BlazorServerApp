@@ -1,8 +1,6 @@
 ﻿@page "/employeeoverview"
 @inherits EmployeeOverviewBase
 
-@using SnowboardHireHRM.Shared
-
 <h1 class="page-title">All employees</h1>
 
 @if (Employees == null)
@@ -25,7 +23,7 @@ else
             @foreach (var employee in Employees)
             {
                 <tr>
-                    <td><img src="@($"/images/employee{employee.EmployeeId}.jpg")" class="rounded-circle" /></td>
+                    <td><img src="@($"/images/employy{employee.EmployeeId}.jpg")" class="rounded-circle" /></td>
                     <td>@employee.EmployeeId</td>
                     <td>@employee.FirstName</td>
                     <td>@employee.LastName</td>
@@ -42,3 +40,7 @@ else
         </tbody>
     </table>
 }
+
+<button @onclick="@QuickAddEmployee" class="btn btn-dark table-btn quick-add-btn">&nbsp;&nbsp;+&nbsp;&nbsp;</button>
+
+<AddEmployeeDialog @ref="AddEmployeeDialog" CloseEventCallback="@AddEmployeeDialog_OnDialogClose"></AddEmployeeDialog>

@@ -9,7 +9,7 @@ using SnowboardHireHRM.Shared;
 
 namespace SnowboardHireHRM.Server.Services
 {
-    public class EmployeeDataService : IEmployeeDataService
+    public class EmployeeDataService: IEmployeeDataService
     {
         private readonly HttpClient _httpClient;
 
@@ -58,6 +58,6 @@ namespace SnowboardHireHRM.Server.Services
                 (await _httpClient.GetStreamAsync($"api/employee/{employeeId}"), new JsonSerializerOptions() { PropertyNameCaseInsensitive = true });
         }
 
-
+    
     }
 }

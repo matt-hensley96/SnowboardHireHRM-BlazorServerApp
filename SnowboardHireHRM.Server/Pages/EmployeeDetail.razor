@@ -1,25 +1,29 @@
-﻿@page "/employeedetail/{EmployeeId}"
+﻿
+@page "/employeedetail/{EmployeeId}"
 @inherits EmployeeDetailBase
-
-
 
 <section class="employee-detail">
     <h1 class="page-title">Details for @Employee.FirstName @Employee.LastName</h1>
 
+    @{
+        var leadingFormat = "00000";
+        //var a = Employee.EmployeeId.ToString("00000");
+    }
 
 
     <div class="col-12 row">
         <div class="col-2">
-            <img src="@($"https://gillcleerenpluralsight.blob.core.windows.net/person/{Employee.EmployeeId}.jpg")" class="img-responsive rounded-circle employee-detail-img" />
+            <img src="@($"/images/employee{Employee.EmployeeId}.jpg")" class="img-responsive rounded-circle employee-detail-img" />
         </div>
         <div class="col-10 row">
             <div class="col-xs-12 col-sm-8">
                 <div class="form-group row">
                     <label class="col-sm-4 col-form-label">Employee ID</label>
                     <div class="col-sm-8">
-                        <label type="text" class="form-control-plaintext">@Employee.EmployeeId</label>
+                        <label type="text" class="form-control-plaintext">@Employee.EmployeeId.ToString(leadingFormat)</label>
                     </div>
                 </div>
+
                 <div class="form-group row">
                     <label class="col-sm-4 col-form-label">First name</label>
                     <div class="col-sm-8">
@@ -100,6 +104,13 @@
                 </div>
 
                 <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Job category</label>
+                    <div class="col-sm-8">
+                        <label type="text" readonly class="form-control-plaintext">@JobCategory</label>
+                    </div>
+                </div>
+
+                <div class="form-group row">
                     <label class="col-sm-4 col-form-label">Joined us</label>
                     <div class="col-sm-8">
                         <label type="text" readonly class="form-control-plaintext">@Employee.JoinedDate?.ToShortDateString()</label>
@@ -120,4 +131,6 @@
             </div>
         </div>
     </div>
+
+
 </section>

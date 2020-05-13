@@ -1,26 +1,37 @@
-﻿using SnowboardHireHRM.Server.Components;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Threading.Tasks;
+using SnowboardHireHRM.Server.Components;
 using SnowboardHireHRM.Server.Services;
 using SnowboardHireHRM.Shared;
 using Microsoft.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SnowboardHireHRM.Server.Pages
 {
-    public class EmployeeOverviewBase : ComponentBase
+    public class EmployeeOverviewBase: ComponentBase
     {
+        //[Inject]
+        //public IHttpClientFactory _clientFactory { get; set; }
+
         [Inject]
         public IEmployeeDataService EmployeeDataService { get; set; }
 
-        public IEnumerable<Employee> Employees { get; set; }
-        protected AddEmployeeDialog AddEmployeeDialog { get; set; }
+        [Inject]
+        public ICountryDataService CountryDataService { get; set; }
+
+        public List<Employee> Employees { get; set; }
+        public List<Country> Countries { get; set; }
+
+        public AddEmployeeDialogBase AddEmployeeDialog { get; set; }
 
         protected override async Task OnInitializedAsync()
         {
             Employees = (await EmployeeDataService.GetAllEmployees()).ToList();
+
+            //AddEmployeeDialog.OnDialogClose += AddEmployeeDialog_OnDialogClose;
         }
+
         public async void AddEmployeeDialog_OnDialogClose()
         {
             Employees = (await EmployeeDataService.GetAllEmployees()).ToList();

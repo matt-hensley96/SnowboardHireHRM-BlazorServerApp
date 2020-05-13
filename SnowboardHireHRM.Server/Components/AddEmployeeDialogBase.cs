@@ -1,14 +1,12 @@
-﻿using SnowboardHireHRM.Server.Services;
+﻿using System;
+using System.Threading.Tasks;
+using SnowboardHireHRM.Server.Services;
 using SnowboardHireHRM.Shared;
 using Microsoft.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace SnowboardHireHRM.Server.Components
 {
-    public class AddEmployeeDialogBase: ComponentBase
+    public class AddEmployeeDialogBase : ComponentBase
     {
         public bool ShowDialog { get; set; }
 
@@ -17,19 +15,13 @@ namespace SnowboardHireHRM.Server.Components
         [Parameter]
         public EventCallback<bool> CloseEventCallback { get; set; }
 
-        [Inject]
+        [Inject] 
         public IEmployeeDataService EmployeeDataService { get; set; }
 
         public void Show()
         {
-            ResetDialog();
             ShowDialog = true;
             StateHasChanged();
-        }
-
-        private void ResetDialog()
-        {
-            Employee = new Employee { CountryId = 1, JobCategoryId = 1, BirthDate = DateTime.Now, JoinedDate = DateTime.Now };
         }
 
         public void Close()

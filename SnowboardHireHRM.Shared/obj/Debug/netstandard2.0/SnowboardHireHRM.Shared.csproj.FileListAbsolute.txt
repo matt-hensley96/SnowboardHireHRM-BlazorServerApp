@@ -1,7 +1,6 @@
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\bin\Debug\netstandard2.0\SnowboardHireHRM.Shared.deps.json
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\bin\Debug\netstandard2.0\SnowboardHireHRM.Shared.dll
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\bin\Debug\netstandard2.0\SnowboardHireHRM.Shared.pdb
-C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\obj\Debug\netstandard2.0\SnowboardHireHRM.Shared.csprojAssemblyReference.cache
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\obj\Debug\netstandard2.0\SnowboardHireHRM.Shared.csproj.CoreCompileInputs.cache
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\obj\Debug\netstandard2.0\SnowboardHireHRM.Shared.AssemblyInfoInputs.cache
 C:\Code\SnowboardHireHRM.Server\SnowboardHireHRM.Shared\obj\Debug\netstandard2.0\SnowboardHireHRM.Shared.AssemblyInfo.cs

@@ -1,8 +1,6 @@
-﻿using SnowboardHireHRM.Shared;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using SnowboardHireHRM.Shared;
 
 namespace SnowboardHireHRM.Server.Services
 {
